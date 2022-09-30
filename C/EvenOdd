@@ -1,0 +1,16 @@
+//Program to check even odd in C
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int a;
+    printf("Enter number:");
+    scanf("%d",&a);
+
+    if(a%2==0)   //Condition to check remainder
+    printf("%d is even",a);
+   
+    else
+    printf("%d is odd",a);
+}
