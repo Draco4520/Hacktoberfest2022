@@ -1,0 +1,21 @@
+//Program for Fibonacci Series
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int a=1,b=2,c,n;
+    
+    printf("Enter limit: ");
+    scanf("%d",&n;)
+    
+    printf("%d %d",a,b);
+    for(int i = 0;i < n; i++)
+    {
+        c = a + b;
+        printf(" %d",c);
+        a = b;
+        b = c;
+    }
+   
+}
